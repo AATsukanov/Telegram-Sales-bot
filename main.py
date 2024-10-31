@@ -20,7 +20,7 @@ import texts
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=API)
-dp = Dispatcher(bot, storage=MemoryStorage())
+dp = Dispatcher(bot=bot, storage=MemoryStorage())
 
 @dp.message_handler(command=['start'])
 async def start(message):

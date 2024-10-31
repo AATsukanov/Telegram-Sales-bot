@@ -13,8 +13,8 @@ start_kb = ReplyKeyboardMarkup(
 catalog_kb = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text='1'),
-            KeyboardButton(text='2')
+            KeyboardButton(text='0'),
+            KeyboardButton(text='1')
         ]
     ], resize_keyboard=True
 )

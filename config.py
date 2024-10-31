@@ -1,6 +1,6 @@
 import tsukanoff
 
-API = tsukanoff.token
+API = tsukanoff.Telegram.token
 
 priceS = 1490
 priceM = 2990
