@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2521d520-cabe-44b4-983e-ef6a5e68e828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Telegram-Sales-bot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/texts.py" afterDir="false" />
+    <list default="true" id="2521d520-cabe-44b4-983e-ef6a5e68e828" name="Changes" comment="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр... https://github.com/AATsukanov/Telegram-Sales-bot">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texts.py" beforeDir="false" afterPath="$PROJECT_DIR$/texts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.keyboards.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -65,6 +59,28 @@
       <option name="presentableId" value="Default" />
       <updated>1730374274720</updated>
     </task>
+    <task id="LOCAL-00001" summary="&#10;https://github.com/AATsukanov/Telegram-Sales-bot">
+      <option name="closed" value="true" />
+      <created>1730405995833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730405995833</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр... https://github.com/AATsukanov/Telegram-Sales-bot">
+      <option name="closed" value="true" />
+      <created>1730406338578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730406338578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="https://github.com/AATsukanov/Telegram-Sales-bot" />
+    <MESSAGE value="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр... https://github.com/AATsukanov/Telegram-Sales-bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр... https://github.com/AATsukanov/Telegram-Sales-bot" />
   </component>
 </project>

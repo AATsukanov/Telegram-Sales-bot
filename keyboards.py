@@ -4,17 +4,31 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 start_kb = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text='Стоимость'),
-            KeyboardButton(text='О нас...')
+            KeyboardButton(text='Каталог'),
+            KeyboardButton(text='О нас...'),
+            KeyboardButton(text='Сайт')
         ]
     ], resize_keyboard=True
 )
 
-catalog_kb = ReplyKeyboardMarkup(
-    keyboard=[
-        [
-            KeyboardButton(text='0'),
-            KeyboardButton(text='1')
-        ]
+catalog_kb = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [InlineKeyboardButton(text='Малая игра', callback_data='small_game')],
+        [InlineKeyboardButton(text='Средняя игра', callback_data='medium_game')],
+        [InlineKeyboardButton(text='Большая игра', callback_data='big_game')],
+        [InlineKeyboardButton(text='Другие предложения', callback_data='other')],
+        [InlineKeyboardButton(text='Контакты', callback_data='contact')]
     ], resize_keyboard=True
+)
+
+buy_kb = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [InlineKeyboardButton(text='Купить!', url='https://www.ozon.ru/category/nastolnye-i-kartochnye-igry-13506/')]
+    ]
+)
+
+site_kb = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [InlineKeyboardButton(text='Да', url='https://tsukanov-lab.moy.su/index/tsukanov_lab/0-2')]
+    ]
 )
