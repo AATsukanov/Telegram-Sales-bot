@@ -23,7 +23,8 @@ catalog_kb = InlineKeyboardMarkup(
 
 buy_kb = InlineKeyboardMarkup(
     inline_keyboard=[
-        [InlineKeyboardButton(text='Купить!', url='https://www.ozon.ru/category/nastolnye-i-kartochnye-igry-13506/')]
+        [InlineKeyboardButton(text='Купить!', url='https://www.ozon.ru/category/nastolnye-i-kartochnye-igry-13506/')],
+        [InlineKeyboardButton(text='Назад', callback_data='back_to_catalog')]
     ]
 )
 

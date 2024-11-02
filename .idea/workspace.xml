@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2521d520-cabe-44b4-983e-ef6a5e68e828" name="Changes" comment="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр... https://github.com/AATsukanov/Telegram-Sales-bot">
+    <list default="true" id="2521d520-cabe-44b4-983e-ef6a5e68e828" name="Changes" comment="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр, включая переход по URL ссылкам и в чат с сотрудником @my_contact.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texts.py" beforeDir="false" afterPath="$PROJECT_DIR$/texts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730406338578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр, включая переход по URL ссылкам и в чат с сотрудником @my_contact.">
+      <option name="closed" value="true" />
+      <created>1730445934403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730445934403</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="https://github.com/AATsukanov/Telegram-Sales-bot" />
     <MESSAGE value="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр... https://github.com/AATsukanov/Telegram-Sales-bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр... https://github.com/AATsukanov/Telegram-Sales-bot" />
+    <MESSAGE value="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр, включая переход по URL ссылкам и в чат с сотрудником @my_contact." />
+    <option name="LAST_COMMIT_MESSAGE" value="Пишем Телеграм-бота продаж на примере онлайн магазина настольных игр, включая переход по URL ссылкам и в чат с сотрудником @my_contact." />
   </component>
 </project>
