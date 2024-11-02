@@ -67,6 +67,7 @@ async def buy_other(call):
 @dp.callback_query_handler(text='back_to_catalog')
 async def back(call):
     await call.message.answer('Что Вас интересует?', reply_markup=catalog_kb)
+    await call.answer()
 
 @dp.callback_query_handler(text='contact')
 async def contact_me(call):
