@@ -15,6 +15,8 @@ import logging
 
 from config import *
 from keyboards import *
+from admin import *
+from db import *
 import texts
 
 logging.basicConfig(level=logging.INFO)
@@ -61,7 +63,7 @@ async def buy_big(call):
 
 @dp.callback_query_handler(text='other')
 async def buy_other(call):
-    await call.message.answer(texts.other, reply_markup=buy_kb)
+    await call.message.answer(texts.other)
     await call.answer()
 
 @dp.callback_query_handler(text='back_to_catalog')
@@ -76,8 +78,9 @@ async def contact_me(call):
 
 @dp.message_handler()
 async def all_messages(message):
-    await message.answer(texts.wrong_command)
-    print(f'Получено: {message.text}')
+    # await message.answer(texts.wrong_command)
+    print(f'Получено от @{message.from_user.username}: {message.text}')
+    await message.answer('Для начала, пожалуйста, нажмите на команду /start')
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)

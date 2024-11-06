@@ -33,3 +33,15 @@ site_kb = InlineKeyboardMarkup(
         [InlineKeyboardButton(text='Да', url='https://tsukanov-lab.moy.su/index/tsukanov_lab/0-2')]
     ]
 )
+
+admin_panel_kb = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [InlineKeyboardButton(text='Пользователи', callback_data='users')],
+        [InlineKeyboardButton(text='Статистика', callback_data='stat')],
+        [
+            InlineKeyboardButton(text='Блокировка', callback_data='block'),
+            InlineKeyboardButton(text='Разблокировка', callback_data='unblock')
+        ]
+    ]
+
+)
